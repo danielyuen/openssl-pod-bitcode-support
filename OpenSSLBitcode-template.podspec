@@ -229,7 +229,6 @@ Pod::Spec.new do |s|
     echo "Done"
   CMD
 
-  s.ios.platform            = :ios
   s.ios.public_header_files = "opensslIncludes/openssl/*.h"
   s.ios.vendored_libraries  = "lib/libcrypto_iOS.a", "lib/libssl_iOS.a"
 
